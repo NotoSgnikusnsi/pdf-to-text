@@ -1,8 +1,8 @@
-# template-deno
+# pdf-to-text
 
 ## 概要
 
-このプロジェクトは、Denoを使用したWebサーバーのテンプレートです。
+pdfをしていするとtextとして出力する。
 
 ## 必要なもの
 
