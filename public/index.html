@@ -4,13 +4,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script type="module" src="main.js"></script>
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <title>PDF TO TEXT</title>
 </head>
 
 <body>
-  <h1 id="message"></h1>
+  <h1>PDF TO TEXT</h1>
+  <div>
+    <h2>テキストに変換するPDFを指定してください</h2>
+    <form>
+      <input type="file" id="inputFile" accept="application/pdf" required>
+      <button id="button">変換</button>
+    </form>
+  </div>
+  <div>
+    <h2>変換したもの</h2>
+    <textarea id="textarea" name="text" id="" rows="10" style="width: 60%;">ここに変換したテキストが表示されます</textarea>
+  </div>
+  <script type="module" src="main.js"></script>
 </body>
 
 </html>
